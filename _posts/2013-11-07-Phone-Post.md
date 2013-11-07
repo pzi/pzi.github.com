@@ -1,8 +1,8 @@
 ---
-published: true
 layout: post
-category: jekyll update
-date: 2013-11-07T21:16:00.000Z
+title: "Phone post"
+categories: jekyll update
+date: 2013-11-07 21:16:00
 ---
 
 ## A test post from prose on ios
