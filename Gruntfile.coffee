@@ -279,6 +279,19 @@ module.exports = (grunt) ->
         'copy:dist'
       ]
 
+    buildcontrol:
+      options:
+        dir: '<%= yeoman.app %>'
+        commit: true
+        push: true
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      ,
+      pages:
+        options:
+          remote: 'git@github.com:pzi/pzi.github.com.git'
+          branch: 'master'
+
+
   # Define Tasks
   grunt.registerTask('serve', (target) ->
     if target is 'dist'
@@ -298,33 +311,38 @@ module.exports = (grunt) ->
   )
 
   grunt.registerTask('check', [
-    'clean:server',
-    'jekyll:check',
-    'compass:server',
-    'coffee:dist',
-    'jshint:all',
-    'csscss:check',
+    'clean:server'
+    'jekyll:check'
+    'compass:server'
+    'coffee:dist'
+    'jshint:all'
+    'csscss:check'
     'csslint:check'
   ])
 
   grunt.registerTask('build', [
-    'clean:dist',
+    'clean:dist'
     # Jekyll cleans files from the target directory, so must run first
-    'jekyll:dist',
-    'concurrent:dist',
-    'useminPrepare',
-    'concat',
-    'cssmin',
-    'uglify',
-    'imagemin',
-    'svgmin',
-    'rev',
-    'usemin',
+    'jekyll:dist'
+    'concurrent:dist'
+    'useminPrepare'
+    'concat'
+    'cssmin'
+    'uglify'
+    'imagemin'
+    'svgmin'
+    'rev'
+    'usemin'
     'htmlmin'
     ])
 
   grunt.registerTask('default', [
-    'check',
-    'test',
+    'check'
+    'test'
     'build'
+  ])
+
+  grunt.registerTask('deploy', [
+    'build'
+    'buildcontrol:pages'
   ])
