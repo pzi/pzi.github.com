@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Patrik Affentranger -- Site Maker --  http://twitter.com/pzimat
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    Jekyll static site generator
+    Sass and Compass 
+    Coffeescript 
+    HTML5 ★ Boilerplate 
+    Normalize.css 
+    jQuery, Modernizr 
+
