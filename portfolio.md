@@ -1,4 +1,4 @@
 ---
 title: Portfolio
-redirect_to: "http://www.patrikaffentranger.me"
+redirect_to: "http://portfolio.patrikaffentranger.me"
 ---
