@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Portfolio
-permalink: /portfolio/
+redirect_to: "http://www.patrikaffentranger.me"
 ---

@@ -13,3 +13,6 @@ github_username:  pzi
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
+
+gems:
+  - jekyll-redirect-from
