@@ -1,0 +1,15 @@
+# Site settings
+title: Patrik Affentranger
+tagline: "Web Publisher from Berne, Switzerland"
+email: hello@patrikaffentranger.me
+description: > # this means to ignore newlines until "baseurl:"
+  Website coming soon!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://patrikaffentranger.me" # the base hostname & protocol for your site
+twitter_username: pzimat
+github_username:  pzi
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
