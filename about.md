@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Professional Web Publisher from Switzerland based in Perth, Australia.
+Patrik Affentranger is a Professional Front End Developer from Switzerland based in Perth, Australia.
 For 8 years I have gathered commercial experience and perfected my skills.
 My passion is creating beautiful websites using the latest web technologies.
 
